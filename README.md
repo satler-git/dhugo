@@ -1,6 +1,6 @@
-# Electron with Typescript application example
+# dhugo
 
-This example shows how to use Next.js inside an Electron application. To avoid a lot of configuration, we use Next.js as a router for pages, and use server rendering to speed up the initial render of the application. Both Next.js and Electron layers are written in TypeScript and compiled to JavaScript during the build process.
+Japanese card game "Daihugo" written in Typescript.
 
 | Part       | Source code (Typescript) | Builds (JavaScript) |
 | ---------- | ------------------------ | ------------------- |
@@ -8,38 +8,19 @@ This example shows how to use Next.js inside an Electron application. To avoid a
 | Electron   | `/electron-src`          | `/main`             |
 | Production |                          | `/dist`             |
 
-For development it's going to run a HTTP server and let Next.js handle routing. In production it will use `output: 'export'` to pre-generate HTML static files and use them in your app (instead of running a HTTP server).
-
-## How to use
-
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init), [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/), or [pnpm](https://pnpm.io) to bootstrap the example:
+Available just commands:
 
 ```bash
-npx create-next-app --example with-electron-typescript with-electron-typescript-app
-```
-
-```bash
-yarn create next-app --example with-electron-typescript with-electron-typescript-app
-```
-
-```bash
-pnpm create next-app --example with-electron-typescript with-electron-typescript-app
-```
-
-Available commands:
-
-```bash
-"build-renderer": build and transpile Next.js layer
-"build-electron": transpile electron layer
+"run": start dev version
+"setup": setup project(run when clone)
 "build": build both layers
-"dev": start dev version
-"dist": create production electron build
-"type-check": check TypeScript in project
+"format-all": format all file in project
+"lint-all": lint all file in project
 ```
 
 ## Notes
 
-You can create the production app using `npm run dist`.
+You can create the production app using `yarn run dist`.
 
 _note regarding types:_
 
