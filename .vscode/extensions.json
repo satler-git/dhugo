@@ -1,6 +1,12 @@
 {
   "recommendations": [
     "biomejs.biome",
-    "skellock.just"
+    "skellock.just",
+    "editorconfig.editorconfig",
+    "formulahendry.auto-rename-tag",
+    "ms-vscode-remote.remote-containers",
+    "github.vscode-pull-request-github",
+    "visualstudioexptteam.vscodeintellicode",
+    "gamunu.vscode-yarn"
   ]
 }
