@@ -13,5 +13,11 @@ format-all:
 lint-all:
     yarn biome lint .
 
+test:
+    yarn vitest
+
+coverage:
+    yarn vitest run --coverage
+
 build:
     yarn build
