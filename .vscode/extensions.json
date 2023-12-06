@@ -7,6 +7,7 @@
     "ms-vscode-remote.remote-containers",
     "github.vscode-pull-request-github",
     "visualstudioexptteam.vscodeintellicode",
-    "gamunu.vscode-yarn"
+    "gamunu.vscode-yarn",
+    "zixuanchen.vitest-explorer"
   ]
 }
