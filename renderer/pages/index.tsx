@@ -21,7 +21,7 @@ const IndexPage = () => {
 	return (
 		<Layout title="Home | Next.js + TypeScript + Electron Example">
 			<h1>Hello Next.js 👋</h1>
-			<button onClick={onSayHiClick}>Say hi to electron</button>
+			<button type="button" onClick={onSayHiClick} className="bg-indigo-600 font-semibold text-white py-1 px-1 rounded">Say hi to electron</button>
 			<p>
 				<Link href="/about">About</Link>
 			</p>
