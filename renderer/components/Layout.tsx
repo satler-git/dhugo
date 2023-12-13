@@ -16,8 +16,17 @@ const Layout = ({ children, title = "This is the default title" }: Props) => (
 		</Head>
 		<header>
 			<nav>
-				<Link href="/">Home</Link> | <Link href="/about">About</Link> |{" "}
-				<Link href="/initial-props">With Initial Props</Link>
+				<Link href="/" className="bg-amber-300 rounded">
+					Home
+				</Link>{" "}
+				|{" "}
+				<Link href="/about" className="bg-amber-300 rounded">
+					About
+				</Link>{" "}
+				|{" "}
+				<Link href="/initial-props" className="bg-amber-300 rounded">
+					With Initial Props
+				</Link>
 			</nav>
 		</header>
 		{children}

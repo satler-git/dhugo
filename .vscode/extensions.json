@@ -8,6 +8,7 @@
 		"github.vscode-pull-request-github",
 		"visualstudioexptteam.vscodeintellicode",
 		"gamunu.vscode-yarn",
-		"zixuanchen.vitest-explorer"
+		"zixuanchen.vitest-explorer",
+		"bradlc.vscode-tailwindcss"
 	]
 }
